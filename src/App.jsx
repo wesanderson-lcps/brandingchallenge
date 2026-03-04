@@ -64,56 +64,56 @@ const LOGO_VECTORS = {
 
 // Expanded database
 const BRAND_DATA = [
-  { name: "Nike", slogan: "Just Do It", color: "#000000", logoKey: "Nike" },
-  { name: "Apple", slogan: "Think Different", color: "#555555", logoKey: "Apple" },
-  { name: "McDonald's", slogan: "I'm Lovin' It", color: "#FFC72C", logoKey: "McDonalds" },
-  { name: "Coca-Cola", slogan: "Open Happiness", color: "#F40009" },
-  { name: "Target", slogan: "Expect More. Pay Less.", color: "#CC0000", logoKey: "Target" },
-  { name: "Adidas", slogan: "Impossible is Nothing", color: "#000000", logoKey: "Adidas" },
-  { name: "Pepsi", slogan: "For the Love of It", color: "#004B93", logoKey: "Pepsi" },
-  { name: "Volkswagen", slogan: "Das Auto", color: "#001E50", logoKey: "Volkswagen" },
-  { name: "Under Armour", slogan: "Protect This House", color: "#000000", logoKey: "UnderArmour" },
-  { name: "Chanel", slogan: "Share the Fantasy", color: "#000000", logoKey: "Chanel" },
-  { name: "Mastercard", slogan: "Priceless", color: "#EB001B", logoKey: "Mastercard" },
-  { name: "Disney", slogan: "The Happiest Place on Earth", color: "#113CCF" },
-  { name: "Amazon", slogan: "Work Hard. Have Fun. Make History.", color: "#FF9900" },
-  { name: "Subway", slogan: "Eat Fresh", color: "#008C15" },
-  { name: "BMW", slogan: "The Ultimate Driving Machine", color: "#0066B1" },
-  { name: "Red Bull", slogan: "Gives You Wings", color: "#000B47" },
-  { name: "Walmart", slogan: "Save Money. Live Better.", color: "#0071CE" },
-  { name: "Toyota", slogan: "Let's Go Places", color: "#EB0A1E" },
-  { name: "Google", slogan: "Don't Be Evil", color: "#4285F4" },
-  { name: "Starbucks", slogan: "To inspire and nurture the human spirit", color: "#00704A" },
-  { name: "Netflix", slogan: "See What's Next", color: "#E50914" },
-  { name: "Skittles", slogan: "Taste the Rainbow", color: "#FF0000" },
-  { name: "Airbnb", slogan: "Belong Anywhere", color: "#FF5A5F" },
-  { name: "Gillette", slogan: "The Best a Man Can Get", color: "#0038A8" },
-  { name: "eBay", slogan: "Buy it now, keep it forever", color: "#E53238" },
-  { name: "General Electric", slogan: "Imagination at Work", color: "#005EB8" },
-  { name: "Verizon", slogan: "Give your network credit", color: "#CD040B" },
-  { name: "Allstate", slogan: "You're in Good Hands", color: "#004B8D" },
-  { name: "State Farm", slogan: "Like a Good Neighbor", color: "#E12027" },
-  { name: "Geico", slogan: "15 Minutes Could Save You 15%", color: "#007A33" },
-  { name: "Tesla", slogan: "Powering the Future", color: "#CC0000" },
-  { name: "Instagram", slogan: "Capture and Share the World's Moments", color: "#E1306C" },
-  { name: "Visa", slogan: "Everywhere You Want To Be", color: "#1A1F71" },
-  { name: "Rolex", slogan: "A Crown for Every Achievement", color: "#006039" },
-  { name: "Intel", slogan: "Experience What's Inside", color: "#0071C5" },
-  { name: "Microsoft", slogan: "Empowering us all", color: "#F25022" },
-  { name: "LEGO", slogan: "Play On", color: "#D11013" },
-  { name: "Spotify", slogan: "Music for Everyone", color: "#1DB954" },
-  { name: "LinkedIn", slogan: "Connect to Opportunity", color: "#0077B5" },
-  { name: "Uber", slogan: "Move the Way You Want", color: "#000000" },
-  { name: "Slack", slogan: "Where Work Happens", color: "#4A154B" },
-  { name: "FedEx", slogan: "Where Now Meets Next", color: "#4D148C" },
-  { name: "KFC", slogan: "It's Finger Lickin' Good", color: "#E4002B" },
-  { name: "Dunkin'", slogan: "America Runs on Dunkin'", color: "#FF671F" },
-  { name: "Taco Bell", slogan: "Live Mas", color: "#702082" },
-  { name: "Patagonia", slogan: "Earth First", color: "#3B5998" },
-  { name: "L'Oréal", slogan: "Because You're Worth It", color: "#D4AF37" },
-  { name: "Burger King", slogan: "Have It Your Way", color: "#D62300" },
-  { name: "Energizer", slogan: "It Keeps Going and Going", color: "#000000" },
-  { name: "Skype", slogan: "Connect with the world", color: "#00AFF0" }
+  { name: "Nike", slogan: "Just Do It", color: "#000000", logoKey: "Nike", companiesLogoId: "NKE" },
+  { name: "Apple", slogan: "Think Different", color: "#555555", logoKey: "Apple", companiesLogoId: "AAPL" },
+  { name: "McDonald's", slogan: "I'm Lovin' It", color: "#FFC72C", logoKey: "McDonalds", companiesLogoId: "MCD" },
+  { name: "Coca-Cola", slogan: "Open Happiness", color: "#F40009", companiesLogoId: "KO" },
+  { name: "Target", slogan: "Expect More. Pay Less.", color: "#CC0000", logoKey: "Target", companiesLogoId: "TGT" },
+  { name: "Adidas", slogan: "Impossible is Nothing", color: "#000000", logoKey: "Adidas", companiesLogoId: "ADDYY" },
+  { name: "Pepsi", slogan: "For the Love of It", color: "#004B93", logoKey: "Pepsi", companiesLogoId: "PEP" },
+  { name: "Volkswagen", slogan: "Das Auto", color: "#001E50", logoKey: "Volkswagen", companiesLogoId: "VWAGY" },
+  { name: "Under Armour", slogan: "Protect This House", color: "#000000", logoKey: "UnderArmour", companiesLogoId: "UA" },
+  { name: "Chanel", slogan: "Share the Fantasy", color: "#000000", logoKey: "Chanel", companiesLogoId: "chanel" },
+  { name: "Mastercard", slogan: "Priceless", color: "#EB001B", logoKey: "Mastercard", companiesLogoId: "MA" },
+  { name: "Disney", slogan: "The Happiest Place on Earth", color: "#113CCF", companiesLogoId: "DIS" },
+  { name: "Amazon", slogan: "Work Hard. Have Fun. Make History.", color: "#FF9900", companiesLogoId: "AMZN" },
+  { name: "Subway", slogan: "Eat Fresh", color: "#008C15", companiesLogoId: "subway" },
+  { name: "BMW", slogan: "The Ultimate Driving Machine", color: "#0066B1", companiesLogoId: "BMWYY" },
+  { name: "Red Bull", slogan: "Gives You Wings", color: "#000B47", companiesLogoId: "red-bull" },
+  { name: "Walmart", slogan: "Save Money. Live Better.", color: "#0071CE", companiesLogoId: "WMT" },
+  { name: "Toyota", slogan: "Let's Go Places", color: "#EB0A1E", companiesLogoId: "TM" },
+  { name: "Google", slogan: "Don't Be Evil", color: "#4285F4", companiesLogoId: "GOOGL" },
+  { name: "Starbucks", slogan: "To inspire and nurture the human spirit", color: "#00704A", companiesLogoId: "SBUX" },
+  { name: "Netflix", slogan: "See What's Next", color: "#E50914", companiesLogoId: "NFLX" },
+  { name: "Skittles", slogan: "Taste the Rainbow", color: "#FF0000", companiesLogoId: "skittles" },
+  { name: "Airbnb", slogan: "Belong Anywhere", color: "#FF5A5F", companiesLogoId: "ABNB" },
+  { name: "Gillette", slogan: "The Best a Man Can Get", color: "#0038A8", companiesLogoId: "gillette" },
+  { name: "eBay", slogan: "Buy it now, keep it forever", color: "#E53238", companiesLogoId: "EBAY" },
+  { name: "General Electric", slogan: "Imagination at Work", color: "#005EB8", companiesLogoId: "GE" },
+  { name: "Verizon", slogan: "Give your network credit", color: "#CD040B", companiesLogoId: "VZ" },
+  { name: "Allstate", slogan: "You're in Good Hands", color: "#004B8D", companiesLogoId: "ALL" },
+  { name: "State Farm", slogan: "Like a Good Neighbor", color: "#E12027", companiesLogoId: "state-farm" },
+  { name: "Geico", slogan: "15 Minutes Could Save You 15%", color: "#007A33", companiesLogoId: "geico" },
+  { name: "Tesla", slogan: "Powering the Future", color: "#CC0000", companiesLogoId: "TSLA" },
+  { name: "Instagram", slogan: "Capture and Share the World's Moments", color: "#E1306C", companiesLogoId: "instagram" },
+  { name: "Visa", slogan: "Everywhere You Want To Be", color: "#1A1F71", companiesLogoId: "V" },
+  { name: "Rolex", slogan: "A Crown for Every Achievement", color: "#006039", companiesLogoId: "rolex" },
+  { name: "Intel", slogan: "Experience What's Inside", color: "#0071C5", companiesLogoId: "INTC" },
+  { name: "Microsoft", slogan: "Empowering us all", color: "#F25022", companiesLogoId: "MSFT" },
+  { name: "LEGO", slogan: "Play On", color: "#D11013", companiesLogoId: "lego" },
+  { name: "Spotify", slogan: "Music for Everyone", color: "#1DB954", companiesLogoId: "SPOT" },
+  { name: "LinkedIn", slogan: "Connect to Opportunity", color: "#0077B5", companiesLogoId: "linkedin" },
+  { name: "Uber", slogan: "Move the Way You Want", color: "#000000", companiesLogoId: "UBER" },
+  { name: "Slack", slogan: "Where Work Happens", color: "#4A154B", companiesLogoId: "slack" },
+  { name: "FedEx", slogan: "Where Now Meets Next", color: "#4D148C", companiesLogoId: "FDX" },
+  { name: "KFC", slogan: "It's Finger Lickin' Good", color: "#E4002B", companiesLogoId: "kfc" },
+  { name: "Dunkin'", slogan: "America Runs on Dunkin'", color: "#FF671F", companiesLogoId: "dunkin" },
+  { name: "Taco Bell", slogan: "Live Mas", color: "#702082", companiesLogoId: "taco-bell" },
+  { name: "Patagonia", slogan: "Earth First", color: "#3B5998", companiesLogoId: "patagonia" },
+  { name: "L'Oréal", slogan: "Because You're Worth It", color: "#D4AF37", companiesLogoId: "LRLCY" },
+  { name: "Burger King", slogan: "Have It Your Way", color: "#D62300", companiesLogoId: "QSR" },
+  { name: "Energizer", slogan: "It Keeps Going and Going", color: "#000000", companiesLogoId: "ENR" },
+  { name: "Skype", slogan: "Connect with the world", color: "#00AFF0", companiesLogoId: "skype" }
 ];
 
 const App = () => {
@@ -168,12 +168,28 @@ const App = () => {
   };
 
   const LogoDisplay = ({ brand }) => {
+    const [imgError, setImgError] = useState(false);
     const LogoSVG = LOGO_VECTORS[brand.logoKey];
-    
+
+    useEffect(() => {
+      setImgError(false);
+    }, [brand.name]);
+
+    const logoUrl = brand.companiesLogoId
+      ? `https://companieslogo.com/img/orig/${brand.companiesLogoId}.png`
+      : null;
+
     return (
       <div className="flex flex-col items-center justify-center p-12 bg-white border-2 border-dashed rounded-3xl mb-8 shadow-sm transition-all" style={{ borderColor: brand.color + '44' }}>
         <div className="w-40 h-40 flex items-center justify-center rounded-2xl mb-6">
-          {LogoSVG ? (
+          {logoUrl && !imgError ? (
+            <img
+              src={logoUrl}
+              alt=""
+              className="w-full h-full object-contain"
+              onError={() => setImgError(true)}
+            />
+          ) : LogoSVG ? (
             LogoSVG(brand.color)
           ) : (
             <div className="text-center">
