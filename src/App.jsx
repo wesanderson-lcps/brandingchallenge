@@ -89,44 +89,44 @@ const BRAND_DATA = [
   { name: "Chanel", slogan: "Share the Fantasy", color: "#000000", logoKey: "Chanel", companiesLogoId: "chanel", domain: "chanel.com" },
   { name: "Mastercard", slogan: "Priceless", color: "#EB001B", logoKey: "Mastercard", companiesLogoId: "MA", domain: "mastercard.com" },
   { name: "Disney", slogan: "The Happiest Place on Earth", color: "#113CCF", companiesLogoId: "DIS", domain: "disney.com" },
-  { name: "Amazon", slogan: "Work Hard. Have Fun. Make History.", color: "#FF9900", companiesLogoId: "AMZN", domain: "amazon.com" },
-  { name: "Subway", slogan: "Eat Fresh", color: "#008C15", companiesLogoId: "subway", domain: "subway.com" },
+  { name: "Amazon", slogan: "Work Hard. Have Fun. Make History.", color: "#FF9900", companiesLogoId: "AMZN", domain: "amazon.com", hasTextInLogo: true },
+  { name: "Subway", slogan: "Eat Fresh", color: "#008C15", companiesLogoId: "subway", domain: "subway.com", hasTextInLogo: true },
   { name: "BMW", slogan: "The Ultimate Driving Machine", color: "#0066B1", companiesLogoId: "BMWYY", domain: "bmw.com" },
   { name: "Red Bull", slogan: "Gives You Wings", color: "#000B47", companiesLogoId: "red-bull", domain: "redbull.com" },
-  { name: "Walmart", slogan: "Save Money. Live Better.", color: "#0071CE", companiesLogoId: "WMT", domain: "walmart.com" },
+  { name: "Walmart", slogan: "Save Money. Live Better.", color: "#0071CE", companiesLogoId: "WMT", domain: "walmart.com", hasTextInLogo: true },
   { name: "Toyota", slogan: "Let's Go Places", color: "#EB0A1E", companiesLogoId: "TM", domain: "toyota.com" },
   { name: "Google", slogan: "Don't Be Evil", color: "#4285F4", companiesLogoId: "GOOGL", domain: "google.com" },
   { name: "Starbucks", slogan: "To inspire and nurture the human spirit", color: "#00704A", companiesLogoId: "SBUX", domain: "starbucks.com" },
-  { name: "Netflix", slogan: "See What's Next", color: "#E50914", companiesLogoId: "NFLX", domain: "netflix.com" },
-  { name: "Skittles", slogan: "Taste the Rainbow", color: "#FF0000", companiesLogoId: "skittles", domain: "skittles.com" },
-  { name: "Airbnb", slogan: "Belong Anywhere", color: "#FF5A5F", companiesLogoId: "ABNB", domain: "airbnb.com" },
-  { name: "Gillette", slogan: "The Best a Man Can Get", color: "#0038A8", companiesLogoId: "gillette", domain: "gillette.com" },
-  { name: "eBay", slogan: "Buy it now, keep it forever", color: "#E53238", companiesLogoId: "EBAY", domain: "ebay.com" },
-  { name: "General Electric", slogan: "Imagination at Work", color: "#005EB8", companiesLogoId: "GE", domain: "ge.com" },
-  { name: "Verizon", slogan: "Give your network credit", color: "#CD040B", companiesLogoId: "VZ", domain: "verizon.com" },
-  { name: "Allstate", slogan: "You're in Good Hands", color: "#004B8D", companiesLogoId: "ALL", domain: "allstate.com" },
-  { name: "State Farm", slogan: "Like a Good Neighbor", color: "#E12027", companiesLogoId: "state-farm", domain: "statefarm.com" },
-  { name: "Geico", slogan: "15 Minutes Could Save You 15%", color: "#007A33", companiesLogoId: "geico", domain: "geico.com" },
+  { name: "Netflix", slogan: "See What's Next", color: "#E50914", companiesLogoId: "NFLX", domain: "netflix.com", hasTextInLogo: true },
+  { name: "Skittles", slogan: "Taste the Rainbow", color: "#FF0000", companiesLogoId: "skittles", domain: "skittles.com", hasTextInLogo: true },
+  { name: "Airbnb", slogan: "Belong Anywhere", color: "#FF5A5F", companiesLogoId: "ABNB", domain: "airbnb.com", hasTextInLogo: true },
+  { name: "Gillette", slogan: "The Best a Man Can Get", color: "#0038A8", companiesLogoId: "gillette", domain: "gillette.com", hasTextInLogo: true },
+  { name: "eBay", slogan: "Buy it now, keep it forever", color: "#E53238", companiesLogoId: "EBAY", domain: "ebay.com", hasTextInLogo: true },
+  { name: "General Electric", slogan: "Imagination at Work", color: "#005EB8", companiesLogoId: "GE", domain: "ge.com", hasTextInLogo: true },
+  { name: "Verizon", slogan: "Give your network credit", color: "#CD040B", companiesLogoId: "VZ", domain: "verizon.com", hasTextInLogo: true },
+  { name: "Allstate", slogan: "You're in Good Hands", color: "#004B8D", companiesLogoId: "ALL", domain: "allstate.com", hasTextInLogo: true },
+  { name: "State Farm", slogan: "Like a Good Neighbor", color: "#E12027", companiesLogoId: "state-farm", domain: "statefarm.com", hasTextInLogo: true },
+  { name: "Geico", slogan: "15 Minutes Could Save You 15%", color: "#007A33", companiesLogoId: "geico", domain: "geico.com", hasTextInLogo: true },
   { name: "Tesla", slogan: "Powering the Future", color: "#CC0000", companiesLogoId: "TSLA", domain: "tesla.com" },
-  { name: "Instagram", slogan: "Capture and Share the World's Moments", color: "#E1306C", companiesLogoId: "instagram", domain: "instagram.com" },
-  { name: "Visa", slogan: "Everywhere You Want To Be", color: "#1A1F71", companiesLogoId: "V", domain: "visa.com" },
-  { name: "Rolex", slogan: "A Crown for Every Achievement", color: "#006039", companiesLogoId: "rolex", domain: "rolex.com" },
-  { name: "Intel", slogan: "Experience What's Inside", color: "#0071C5", companiesLogoId: "INTC", domain: "intel.com" },
+  { name: "Instagram", slogan: "Capture and Share the World's Moments", color: "#E1306C", companiesLogoId: "instagram", domain: "instagram.com", hasTextInLogo: true },
+  { name: "Visa", slogan: "Everywhere You Want To Be", color: "#1A1F71", companiesLogoId: "V", domain: "visa.com", hasTextInLogo: true },
+  { name: "Rolex", slogan: "A Crown for Every Achievement", color: "#006039", companiesLogoId: "rolex", domain: "rolex.com", hasTextInLogo: true },
+  { name: "Intel", slogan: "Experience What's Inside", color: "#0071C5", companiesLogoId: "INTC", domain: "intel.com", hasTextInLogo: true },
   { name: "Microsoft", slogan: "Empowering us all", color: "#F25022", companiesLogoId: "MSFT", domain: "microsoft.com" },
   { name: "LEGO", slogan: "Play On", color: "#D11013", companiesLogoId: "lego", domain: "lego.com" },
-  { name: "Spotify", slogan: "Music for Everyone", color: "#1DB954", companiesLogoId: "SPOT", domain: "spotify.com" },
-  { name: "LinkedIn", slogan: "Connect to Opportunity", color: "#0077B5", companiesLogoId: "linkedin", domain: "linkedin.com" },
-  { name: "Uber", slogan: "Move the Way You Want", color: "#000000", companiesLogoId: "UBER", domain: "uber.com" },
-  { name: "Slack", slogan: "Where Work Happens", color: "#4A154B", companiesLogoId: "slack", domain: "slack.com" },
-  { name: "FedEx", slogan: "Where Now Meets Next", color: "#4D148C", companiesLogoId: "FDX", domain: "fedex.com" },
-  { name: "KFC", slogan: "It's Finger Lickin' Good", color: "#E4002B", companiesLogoId: "kfc", domain: "kfc.com" },
-  { name: "Dunkin'", slogan: "America Runs on Dunkin'", color: "#FF671F", companiesLogoId: "dunkin", domain: "dunkindonuts.com" },
-  { name: "Taco Bell", slogan: "Live Mas", color: "#702082", companiesLogoId: "taco-bell", domain: "tacobell.com" },
-  { name: "Patagonia", slogan: "Earth First", color: "#3B5998", companiesLogoId: "patagonia", domain: "patagonia.com" },
-  { name: "L'Oréal", slogan: "Because You're Worth It", color: "#D4AF37", companiesLogoId: "LRLCY", domain: "loreal.com" },
-  { name: "Burger King", slogan: "Have It Your Way", color: "#D62300", companiesLogoId: "QSR", domain: "burgerking.com" },
-  { name: "Energizer", slogan: "It Keeps Going and Going", color: "#000000", companiesLogoId: "ENR", domain: "energizer.com" },
-  { name: "Skype", slogan: "Connect with the world", color: "#00AFF0", companiesLogoId: "skype", domain: "skype.com" }
+  { name: "Spotify", slogan: "Music for Everyone", color: "#1DB954", companiesLogoId: "SPOT", domain: "spotify.com", hasTextInLogo: true },
+  { name: "LinkedIn", slogan: "Connect to Opportunity", color: "#0077B5", companiesLogoId: "linkedin", domain: "linkedin.com", hasTextInLogo: true },
+  { name: "Uber", slogan: "Move the Way You Want", color: "#000000", companiesLogoId: "UBER", domain: "uber.com", hasTextInLogo: true },
+  { name: "Slack", slogan: "Where Work Happens", color: "#4A154B", companiesLogoId: "slack", domain: "slack.com", hasTextInLogo: true },
+  { name: "FedEx", slogan: "Where Now Meets Next", color: "#4D148C", companiesLogoId: "FDX", domain: "fedex.com", hasTextInLogo: true },
+  { name: "KFC", slogan: "It's Finger Lickin' Good", color: "#E4002B", companiesLogoId: "kfc", domain: "kfc.com", hasTextInLogo: true },
+  { name: "Dunkin'", slogan: "America Runs on Dunkin'", color: "#FF671F", companiesLogoId: "dunkin", domain: "dunkindonuts.com", hasTextInLogo: true },
+  { name: "Taco Bell", slogan: "Live Mas", color: "#702082", companiesLogoId: "taco-bell", domain: "tacobell.com", hasTextInLogo: true },
+  { name: "Patagonia", slogan: "Earth First", color: "#3B5998", companiesLogoId: "patagonia", domain: "patagonia.com", hasTextInLogo: true },
+  { name: "L'Oréal", slogan: "Because You're Worth It", color: "#D4AF37", companiesLogoId: "LRLCY", domain: "loreal.com", hasTextInLogo: true },
+  { name: "Burger King", slogan: "Have It Your Way", color: "#D62300", companiesLogoId: "QSR", domain: "burgerking.com", hasTextInLogo: true },
+  { name: "Energizer", slogan: "It Keeps Going and Going", color: "#000000", companiesLogoId: "ENR", domain: "energizer.com", hasTextInLogo: true },
+  { name: "Skype", slogan: "Connect with the world", color: "#00AFF0", companiesLogoId: "skype", domain: "skype.com", hasTextInLogo: true }
 ];
 
 const App = () => {
@@ -151,9 +151,10 @@ const App = () => {
   }, [currentStep, sloganChallenge]);
 
   const startQuiz = () => {
-    const pool = shuffle(BRAND_DATA);
-    setLogoChallenge(pool.slice(0, 15));
-    setSloganChallenge(pool.slice(15, 30));
+    const iconBrands = shuffle(BRAND_DATA.filter(b => !b.hasTextInLogo));
+    const textBrands = shuffle(BRAND_DATA.filter(b => b.hasTextInLogo));
+    setLogoChallenge(iconBrands.slice(0, 15));
+    setSloganChallenge(textBrands.slice(0, 15));
     setLogoAnswers({});
     setSloganChoices({});
     setSloganReasons({});
@@ -304,6 +305,7 @@ const App = () => {
 
   if (view === 'slogans') {
     const currentBrand = sloganChallenge[currentStep];
+    if (!currentBrand) return null; // guard against brief null state during transition
 
     return (
       <div className="min-h-screen bg-slate-50 p-4 md:p-12">
