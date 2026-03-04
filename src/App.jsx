@@ -168,26 +168,39 @@ const App = () => {
   };
 
   const LogoDisplay = ({ brand }) => {
-    const [imgError, setImgError] = useState(false);
+    const [localSvgError, setLocalSvgError] = useState(false);
+    const [remotePngError, setRemotePngError] = useState(false);
     const LogoSVG = LOGO_VECTORS[brand.logoKey];
 
     useEffect(() => {
-      setImgError(false);
+      setLocalSvgError(false);
+      setRemotePngError(false);
     }, [brand.name]);
 
-    const logoUrl = brand.companiesLogoId
+    const localSvgUrl = brand.companiesLogoId
+      ? `/logos/${brand.companiesLogoId}.svg`
+      : null;
+
+    const remotePngUrl = brand.companiesLogoId
       ? `https://companieslogo.com/img/orig/${brand.companiesLogoId}.png`
       : null;
 
     return (
       <div className="flex flex-col items-center justify-center p-12 bg-white border-2 border-dashed rounded-3xl mb-8 shadow-sm transition-all" style={{ borderColor: brand.color + '44' }}>
         <div className="w-40 h-40 flex items-center justify-center rounded-2xl mb-6">
-          {logoUrl && !imgError ? (
+          {localSvgUrl && !localSvgError ? (
             <img
-              src={logoUrl}
+              src={localSvgUrl}
               alt=""
               className="w-full h-full object-contain"
-              onError={() => setImgError(true)}
+              onError={() => setLocalSvgError(true)}
+            />
+          ) : remotePngUrl && !remotePngError ? (
+            <img
+              src={remotePngUrl}
+              alt=""
+              className="w-full h-full object-contain"
+              onError={() => setRemotePngError(true)}
             />
           ) : LogoSVG ? (
             LogoSVG(brand.color)
