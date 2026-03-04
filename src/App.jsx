@@ -141,6 +141,15 @@ const App = () => {
 
   const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
 
+  const currentSloganBrand = sloganChallenge[currentStep] || null;
+  const choices = useMemo(() => {
+    if (!currentSloganBrand) return [];
+    return shuffle([
+      currentSloganBrand.name,
+      ...shuffle(BRAND_DATA.filter(b => b.name !== currentSloganBrand.name)).slice(0, 3)
+    ]);
+  }, [currentStep, sloganChallenge]);
+
   const startQuiz = () => {
     const pool = shuffle(BRAND_DATA);
     setLogoChallenge(pool.slice(0, 15));
@@ -197,7 +206,9 @@ const App = () => {
     return (
       <div className="flex flex-col items-center justify-center p-12 bg-white border-2 border-dashed rounded-3xl mb-8 shadow-sm transition-all" style={{ borderColor: brand.color + '44' }}>
         <div className="w-40 h-40 flex items-center justify-center rounded-2xl mb-6">
-          {brand.domain && !logoDevError ? (
+          {LogoSVG ? (
+            LogoSVG(brand.color)
+          ) : brand.domain && !logoDevError ? (
             <CompanyLogo
               domain={brand.domain}
               className="w-full h-full object-contain"
@@ -210,8 +221,6 @@ const App = () => {
               className="w-full h-full object-contain"
               onError={() => setLocalSvgError(true)}
             />
-          ) : LogoSVG ? (
-            LogoSVG(brand.color)
           ) : (
             <div className="text-center">
                 <Camera size={64} style={{ color: brand.color }} className="mx-auto mb-2 opacity-20" />
@@ -295,12 +304,6 @@ const App = () => {
 
   if (view === 'slogans') {
     const currentBrand = sloganChallenge[currentStep];
-    const choices = useMemo(() => {
-        return shuffle([
-            currentBrand.name,
-            ...shuffle(BRAND_DATA.filter(b => b.name !== currentBrand.name)).slice(0, 3)
-        ]);
-    }, [currentStep]);
 
     return (
       <div className="min-h-screen bg-slate-50 p-4 md:p-12">
